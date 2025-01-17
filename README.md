@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: creating a dangling pointer when pushing elements into a `Vec`. The original code attempts to access an element from a vector that might be reallocated, leading to undefined behavior. The solution shows how to avoid this by using methods that guarantee memory safety.
